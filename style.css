@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav
+{
+    width: 100%;
+    height: 75px;
+    line-height:75PX;
+    padding: 0px 100px;
+    position: fixed;
+    background-color: #195959;
+}
+nav .logo p
+{
+    font-size: 40px;
+    float: left;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+
+}
+nav ul{
+    float: right;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+
+}
+nav li a:hover{
+    color: pink;
+    transition: all 0.4s ease 0s;
+}
+.backbg img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
